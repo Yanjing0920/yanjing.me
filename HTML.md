@@ -114,8 +114,8 @@ eg:
 
  - align 左对齐 右对齐 居中
  - size 粗细 单位像素
- - color颜色
- - width宽度（就是这条线有多长） 50%表示的是父层宽度的50%
+ - color 颜色
+ - width 宽度（就是这条线有多长） 50%表示的是父层宽度的50%
  - noshade (没有属性值的属性) 不要阴影 
 
 ## 8.上标和下标
@@ -371,7 +371,7 @@ eg：
 
 
 >
-> -   (2) 定义表格标题的位置（在table加）
+> -   （2）定义表格标题的位置（在table加）
 > 语法：caption-side:top|bottom|left|right;
 > 注：left和right只有火狐识别；caption是一个块状元素；
 >
@@ -430,7 +430,7 @@ eg：
 
    rules="rows|cols|all|groups|none"
 
->rows:行分割线；cols:列分割线；all:行分割线喝列分割线；groups:组分割线；none:没有分割线；
+>rows:行分割线；cols:列分割线；all:行分割线和列分割线；groups:组分割线；none:没有分割线；
 
 #### 4. 表格行分组
 
@@ -533,12 +533,6 @@ eg:
        <legend>用户注册</legend>
         ...
        </fieldset>
-效果：​
-
-![](G:\github\github库\demo\表单.png)
-
-
-
 >注：将form中的表单控件进行分组，并添加一个标题；
 
 ## 12. 上传文件
